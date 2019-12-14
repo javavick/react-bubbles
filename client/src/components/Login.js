@@ -3,7 +3,7 @@ import useForm from "react-hook-form";
 import axiosWithAuth from "../auth/axiosWithAuth.js";
 
 const Login = (props) => {
-  const { register, handleSubmit, reset, errors } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     reset();
     axiosWithAuth()
