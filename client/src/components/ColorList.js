@@ -18,6 +18,8 @@ const ColorList = ({ colors, updateColors }) => {
 
   // TEST TEST
 
+  // SECOND TEST
+
   const saveEdit = (e) => {
     e.preventDefault();
     // Make a put request to save your updated color
